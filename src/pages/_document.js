@@ -16,9 +16,9 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta name="keywords" content="real estate" />
-          <meta name="description" content="Neelachala Homes" />
-          <meta name="author" content="" />
+          <meta name="keywords" content="movie distributor" />
+          <meta name="description" content="Prakash Films" />
+          <meta name="author" content="Ayan Das" />
           {/* <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -46,7 +46,7 @@ class MyDocument extends Document {
 
           <link
             rel="shortcut icon"
-            href="https://res.cloudinary.com/dagjy96pi/image/upload/v1689964974/favicon_589e3a78b2.png"
+            href="/assets/logo.png"
           />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -100,7 +100,7 @@ class MyDocument extends Document {
         <body>
           <noscript>
             <iframe
-              src="https://www.googletagmanager.com/ns.html?id=GTM-W9GRCT7T"
+              src=""
               height="0"
               width="0"
               style={{ display: "none", visibility: "hidden" }}

@@ -21,11 +21,11 @@ const MainSkin = ({ children }) => {
       if (window.scrollY > 300) {
         navbar.classList.add("nav-scroll");
         // logo.setAttribute("src", "/assets/img/logo.png");
-        logo.setAttribute("src", "https://res.cloudinary.com/dagjy96pi/image/upload/v1707388736/favicon_589e3a78b2.png");
+        logo.setAttribute("src", "/assets/logo.png");
       } else {
         navbar.classList.remove("nav-scroll");
         // logo.setAttribute("src", "/assets/img/logo.png");
-        logo.setAttribute("src", "https://res.cloudinary.com/dagjy96pi/image/upload/v1707388736/favicon_589e3a78b2.png");
+        logo.setAttribute("src", "/assets/logo.png");
       }
     });
   }, [navbarRef]);
