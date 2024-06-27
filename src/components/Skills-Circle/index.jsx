@@ -28,7 +28,13 @@ const SkillsCircle = ({ banner, showLearnMore }) => {
   return (
     <section
       className="skills-circle section-padding bg-img parallaxie"
-      style={{ backgroundImage: `url(${banner?.background_image?.data?.attributes?.url})` }}
+      // style={{ backgroundImage: `url(${banner?.background_image?.data?.attributes?.url})` }}
+      style={{
+        backgroundImage: `url(${'/assets/access-bg.jpg'})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }}
       data-overlay-dark="7"
     >
       <div className={`container ${!showLearnMore ? "mt-40" : ""}`}>
