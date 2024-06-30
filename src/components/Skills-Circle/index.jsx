@@ -53,7 +53,7 @@ const SkillsCircle = ({ banner, showLearnMore }) => {
             </div>
           </div>
         </div>
-        <div className="row wow fadeInUp" data-wow-delay=".3s">
+        {/* <div className="row wow fadeInUp" data-wow-delay=".3s">
           {features.map((feature) => (
             <div className="col-lg-3 col-md-6 col-sm-6" key={feature.id}>
               <div className="skill-icon mt-10">
@@ -64,7 +64,7 @@ const SkillsCircle = ({ banner, showLearnMore }) => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
         {/* {showLearnMore ? <div className="row justify-content-center">
           <Link href="/access">
             <div
