@@ -14,45 +14,21 @@ import { useMediaQuery } from "@mui/material";
 
 const testimonials = [
   {
-    testimonial: "Prakash Films has been instrumental in the success of our film. Their innovative strategies and extensive network helped us reach audiences we never thought possible.",
-    name: "John Doe, Director of 'The Epic Journey'"
+    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
+    name: "Ayan Das",
   },
   {
-    testimonial: "Working with Prakash Films was a seamless experience. Their team is professional, dedicated, and truly understands the film industry.",
-    name: "Jane Smith, Producer of 'A Day in the Life'"
+    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
+    name: "Ayan Das",
   },
   {
-    testimonial: "The level of support and expertise provided by Prakash Films is unmatched. They helped us navigate the complexities of international markets with ease.",
-    name: "Robert Brown, Producer of 'Global Adventure'"
+    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
+    name: "Ayan Das",
   },
   {
-    testimonial: "Thanks to Prakash Films, our film received the recognition it deserved. Their marketing efforts were top-notch and delivered outstanding results.",
-    name: "Emily White, Director of 'Silent Whispers'"
+    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
+    name: "Ayan Das",
   },
-  {
-    testimonial: "Prakash Films exceeded our expectations. Their commitment to quality and integrity is evident in everything they do.",
-    name: "Michael Johnson, Producer of 'Beyond the Horizon'"
-  },
-  {
-    testimonial: "From start to finish, the team at Prakash Films was a pleasure to work with. Their innovative approach to distribution made a significant impact on our film's success.",
-    name: "Sarah Williams, Director of 'The Lost City'"
-  },
-  {
-    testimonial: "Prakash Films' global reach and local expertise helped us connect with diverse audiences around the world. We couldn't be happier with the results.",
-    name: "David Martinez, Producer of 'Cultural Tapestry'"
-  },
-  {
-    testimonial: "Their comprehensive support and dedication to filmmakers set Prakash Films apart. They truly care about the success of each film they distribute.",
-    name: "Linda Taylor, Director of 'Heartfelt Moments'"
-  },
-  {
-    testimonial: "We were impressed by Prakash Films' professionalism and attention to detail. They went above and beyond to ensure our film's success.",
-    name: "James Anderson, Producer of 'Mystery Unveiled'"
-  },
-  {
-    testimonial: "Prakash Films delivered on their promises and helped our film achieve widespread acclaim. We highly recommend their services.",
-    name: "Patricia Thompson, Director of 'Rising Star'"
-  }
 ];
 
 const footer = {

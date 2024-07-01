@@ -96,7 +96,7 @@ const VideoHeroMobile = ({ header_text, header_video, header, header_thumbnail, 
                   fontSize: "4em",
                   fontWeight: "bold",
                   fontFamily: "Playfair Display",
-                  color: "#b93f3f",
+                  color: "#dabd75",
                   // backdropFilter: 'blur(10px)',
                   // background: 'rgba(0,0,0,0.2)',
                 }}

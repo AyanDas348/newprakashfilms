@@ -70,7 +70,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 body.index2 h1,
@@ -224,7 +224,7 @@ span:hover {
 }
 
 .main-color {
-  color: #AA5656 !important;
+  color: #DABD75 !important;
 }
 
 .bg-gray {
@@ -2952,7 +2952,7 @@ span:hover {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #AA5656
+  color: #DABD75
 }
 
 /* ====================== [ End Numbers & Counter  ] ====================== */
@@ -3675,7 +3675,7 @@ span:hover {
 }
 
 .call-action .content h6 {
-  color: #b19777;
+  color: #DABD75;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -3684,7 +3684,7 @@ span:hover {
 }
 
 .call-action .content h6 span {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .call-action .content h2 {
@@ -3916,7 +3916,7 @@ span:hover {
   display: block;
   font-size: 13px;
   margin-top: 10px;
-  color: #b19777;
+  color: #DABD75;
 }
 
 .team .item .info {
@@ -3939,7 +3939,7 @@ span:hover {
 }
 
 .team .slick-dots li.slick-active button {
-  background: #b19777;
+  background: #DABD75;
 }
 
 .team .slick-dots li button {
@@ -3958,7 +3958,7 @@ span:hover {
   top: 4px;
   left: 4px;
   line-height: 1;
-  background: #b19777;
+  background: #DABD75;
   opacity: 1;
 }
 

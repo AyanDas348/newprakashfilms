@@ -16,7 +16,7 @@ const About = ({ data, footerData }) => {
     <MainLayout data={footerData}>
       <PageHeader
         title="About Us"
-        image={'/assets/img/patern.png'}
+        // image={'/assets/img/patern.png'}
       />
       <AboutUs4 data={data.data.attributes} />
       <Services3 bigTitle grid services={data.data.attributes.features} />

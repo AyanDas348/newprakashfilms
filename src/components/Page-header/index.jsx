@@ -8,7 +8,7 @@ const PageHeader = ({ title, fullPath, image, location }) => {
     <header
       className="pages-header bg-img valign parallaxie"
       style={{
-        backgroundImage: `url(${!image ? "/assets/img/patern.png" : image})`,
+        // backgroundImage: `url(${!image ? "/assets/img/patern.png" : image})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

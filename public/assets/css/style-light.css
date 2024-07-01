@@ -119,7 +119,7 @@ span:hover {
 }
 
 .custom-font {
-  font-family: 'Teko', serif;
+  font-family: 'Noto Sans', serif;
   font-weight: 400;
 }
 
@@ -128,7 +128,7 @@ span:hover {
 }
 
 .main-color {
-  color: #b19777 !important;
+  color: #DABD75 !important;
 }
 
 .bg-gray {
@@ -150,7 +150,7 @@ span:hover {
 }
 
 .bg-color {
-  background-color: #b19777 !important;
+  background-color: #DABD75 !important;
 }
 
 .bg-color .primery-shadow {
@@ -870,7 +870,7 @@ span:hover {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: #b19777;
+  background: #DABD75;
 }
 
 .pace.pace-inactive {
@@ -939,8 +939,8 @@ span:hover {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: #b19777;
-  font-family: 'Teko', sans-serif;
+  color: #DABD75;
+  font-family: 'Noto Sans', sans-serif;
   z-index: 9999;
 }
 
@@ -1138,7 +1138,7 @@ span:hover {
   line-height: 44px;
   font-size: 13px;
   font-weight: 900;
-  color: #b19777;
+  color: #DABD75;
   left: 0;
   top: 0;
   height: 44px;
@@ -1156,7 +1156,7 @@ span:hover {
 }
 
 .progress-wrap svg.progress-circle path {
-  stroke: #b19777;
+  stroke: #DABD75;
   stroke-width: 4;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1320,7 +1320,7 @@ span:hover {
   content: "";
   width: 25px;
   height: 1px;
-  background: #b19777;
+  background: #DABD75;
   position: absolute;
   left: 0;
   top: 50%;
@@ -1331,7 +1331,7 @@ span:hover {
 }
 
 .tit h6 {
-  color: #b19777;
+  color: #DABD75;
   font-weight: 400;
   font-size: 16px;
 }
@@ -1348,7 +1348,7 @@ span:hover {
 }
 
 .tit .navs span:hover {
-  background: #b19777;
+  background: #DABD75;
   color: #fff;
 }
 
@@ -1540,7 +1540,7 @@ span:hover {
 
 .navbar .navbar-nav .dropdown-item:hover {
   background: transparent;
-  color: #b19777;
+  color: #DABD75;
 }
 
 .navbar .dropdown-menu {
@@ -1576,7 +1576,7 @@ span:hover {
   content: '';
   width: 0px;
   height: 1px;
-  background: #b19777;
+  background: #DABD75;
   position: absolute;
   left: 10px;
   top: 50%;
@@ -1642,7 +1642,7 @@ span:hover {
   text-align: left;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid #b19777;
+  border-bottom: 2px solid #DABD75;
 }
 
 .navbar .search .search-form .close {
@@ -1806,7 +1806,7 @@ span:hover {
 }
 
 .slider .parallax-slider .caption .thin span {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .slider .parallax-slider .caption h1 {
@@ -2100,7 +2100,7 @@ span:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #b19777;
+  background: #DABD75;
 }
 
 .cta__slider-item .caption .top-corn:after,
@@ -2139,7 +2139,7 @@ span:hover {
 }
 
 .cta__slider-item .caption .thin {
-  color: #b19777;
+  color: #DABD75;
   font-size: 20px;
   font-weight: 300;
   text-transform: uppercase;
@@ -2230,7 +2230,7 @@ span:hover {
 }
 
 .pages-header .cont .path .active {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .pages-header .cont .path span {
@@ -2270,7 +2270,7 @@ span:hover {
 
 .about .exp-img .img .since span {
   display: block;
-  color: #b19777;
+  color: #DABD75;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2300,7 +2300,7 @@ span:hover {
 }
 
 .about .exp-img .img .years h5 {
-  color: #b19777;
+  color: #DABD75;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -2516,7 +2516,7 @@ span:hover {
 }
 
 .services .item-bx:hover .more {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .services .item-bx .numb {
@@ -2524,12 +2524,12 @@ span:hover {
   font-weight: 700;
   margin-bottom: 30px;
   color: transparent;
-  -webkit-text-stroke: 1px #b19777;
+  -webkit-text-stroke: 1px #DABD75;
 }
 
 .services .item-bx .icon {
   font-size: 60px;
-  color: #b19777;
+  color: #DABD75;
   margin-bottom: 30px;
 }
 
@@ -2572,7 +2572,7 @@ span:hover {
 .services .item-sm .numb {
   font-size: 40px;
   font-weight: 400;
-  color: #b19777;
+  color: #DABD75;
   padding-right: 70px;
   line-height: 1;
   position: relative;
@@ -2599,7 +2599,7 @@ span:hover {
 }
 
 .services.halfbg .ontop .item-bx:hover {
-  background: #b19777;
+  background: #DABD75;
 }
 
 .services.halfbg .ontop .item-bx:hover .numb,
@@ -2701,14 +2701,14 @@ span:hover {
 }
 
 .portfolio .filtering span.active {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .portfolio .filtering span:after {
   content: '';
   width: 7px;
   height: 7px;
-  background: #b19777;
+  background: #DABD75;
   border-radius: 50%;
   position: absolute;
   right: -24px;
@@ -3050,7 +3050,7 @@ span:hover {
 }
 
 .work-carousel .content .cont h6 {
-  color: #b19777;
+  color: #DABD75;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -3078,7 +3078,7 @@ span:hover {
   position: absolute;
   content: '';
   width: 75px;
-  border-top: 2px dashed #b19777;
+  border-top: 2px dashed #DABD75;
   top: 75px;
   right: -35px;
 }
@@ -3261,7 +3261,7 @@ span:hover {
 }
 
 .call-action .content h6 {
-  color: #b19777;
+  color: #DABD75;
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
@@ -3270,7 +3270,7 @@ span:hover {
 }
 
 .call-action .content h6 span {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .call-action .content h2 {
@@ -3501,7 +3501,7 @@ span:hover {
   display: block;
   font-size: 13px;
   margin-top: 10px;
-  color: #b19777;
+  color: #DABD75;
 }
 
 .team .item .info {
@@ -3524,7 +3524,7 @@ span:hover {
 }
 
 .team .slick-dots li.slick-active button {
-  background: #b19777;
+  background: #DABD75;
 }
 
 .team .slick-dots li button {
@@ -3543,7 +3543,7 @@ span:hover {
   top: 4px;
   left: 4px;
   line-height: 1;
-  background: #b19777;
+  background: #DABD75;
   opacity: 1;
 }
 
@@ -3655,7 +3655,7 @@ span:hover {
 }
 
 .testimonials.grid .item .info h6 span {
-  color: #b19777;
+  color: #DABD75;
   font-size: 13px;
   font-weight: 400;
   margin-top: 5px;
@@ -3689,7 +3689,7 @@ span:hover {
 }
 
 .testimonials.grid .navs span:hover {
-  background: #b19777;
+  background: #DABD75;
   color: #fff;
 }
 
@@ -3716,11 +3716,11 @@ span:hover {
 }
 
 .testimonials.bg-img .navs span {
-  color: #b19777;
+  color: #DABD75;
 }
 
 .testimonials.bg-img .navs span:hover {
-  background: #b19777;
+  background: #DABD75;
   color: #fff;
 }
 
@@ -3777,7 +3777,7 @@ span:hover {
 }
 
 .blog-grid .item .info .tag {
-  color: #b19777;
+  color: #DABD75;
   font-weight: 600;
   float: right;
 }
@@ -3789,11 +3789,11 @@ span:hover {
 }
 
 .blog-grid .item .more {
-  color: #b19777;
+  color: #DABD75;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: 1px solid #b19777;
+  border-bottom: 1px solid #DABD75;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
@@ -3830,7 +3830,7 @@ span:hover {
 
 .blog-pg .posts .item .img .info .date {
   text-align: center;
-  color: #b19777;
+  color: #DABD75;
 }
 
 .blog-pg .posts .item .img .info .date .num {
@@ -3869,7 +3869,7 @@ span:hover {
 .blog-pg .posts .item .content .tags a {
   font-size: 12px;
   font-weight: 500;
-  color: #b19777;
+  color: #DABD75;
   padding-right: 20px;
   position: relative;
 }
@@ -3954,8 +3954,8 @@ span:hover {
 }
 
 .blog-pg .posts .pagination span.active a {
-  border-color: #b19777;
-  color: #b19777;
+  border-color: #DABD75;
+  color: #DABD75;
 }
 
 .blog-pg.single .post .title-head {
@@ -4149,7 +4149,7 @@ span:hover {
 
 .blog-pg.single .comments-area .item .info h6 span {
   display: block;
-  color: #b19777;
+  color: #DABD75;
   font-size: 12px;
   font-weight: 400;
   margin-top: 5px;
@@ -4320,7 +4320,7 @@ span:hover {
 
 .contact .info .item .cont h6 {
   font-size: 20px;
-  color: #b19777;
+  color: #DABD75;
   margin-bottom: 10px;
 }
 
@@ -4399,7 +4399,7 @@ footer .item li .sm-post p {
 
 footer .item li .sm-post .date {
   font-size: 12px;
-  color: #b19777;
+  color: #DABD75;
 }
 
 footer .item li .subscribe {
@@ -4426,7 +4426,7 @@ footer .item li .subscribe .subs {
   line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  background: #b19777;
+  background: #DABD75;
   color: #000;
 }
 
@@ -4462,7 +4462,7 @@ footer .item .copy-right p {
 }
 
 footer .item .copy-right p a {
-  color: #b19777;
+  color: #DABD75;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -4572,7 +4572,7 @@ footer .item .copy-right p a {
 
   .nav-scroll .navbar-collapse .active,
   .light .navbar-collapse .active {
-    color: #b19777 !important;
+    color: #DABD75 !important;
   }
 
   .light .social-icon a,
@@ -4643,7 +4643,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .navbar-nav .nav-link:hover {
-    color: #b19777;
+    color: #DABD75;
   }
 
   .slider .caption.center h1 {
@@ -4725,7 +4725,7 @@ footer .item .copy-right p a {
   }
 
   .team .tit .navs span:hover {
-    background: #b19777;
+    background: #DABD75;
   }
 
   .team .team-container {
