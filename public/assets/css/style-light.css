@@ -1297,7 +1297,7 @@ span:hover {
 }
 
 .section-head h6 {
-  color: #DABD75;
+  color: #A18f65;
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
@@ -1306,7 +1306,7 @@ span:hover {
 }
 
 .sub-title {
-  color: #DABD75;
+  color: #c0564a;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
@@ -1331,7 +1331,7 @@ span:hover {
 }
 
 .tit h6 {
-  color: #DABD75;
+  color: #A18f65;
   font-weight: 400;
   font-size: 16px;
 }
@@ -2270,7 +2270,7 @@ span:hover {
 
 .about .exp-img .img .since span {
   display: block;
-  color: #DABD75;
+  color: #c0564a;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2300,7 +2300,7 @@ span:hover {
 }
 
 .about .exp-img .img .years h5 {
-  color: #DABD75;
+  color: #c0564a;
   letter-spacing: 5px;
   font-size: 20px;
 }
@@ -2660,7 +2660,7 @@ span:hover {
 
 .numbers .item h3 span {
   font-size: 50px;
-  color: #DABD75;
+  color: #A18f65;
 }
 
 .numbers .item h3 i {
@@ -2676,6 +2676,7 @@ span:hover {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #c0564a;
 }
 
 /* ====================== [ End Numbers & Counter ] ====================== */
@@ -5251,7 +5252,7 @@ footer .item .copy-right p a {
 
 .works .item .cont h5 {
   font-size: 17px;
-  color: #DABD75
+  color: #5c4400
 }
 
 .works .item .cont span {

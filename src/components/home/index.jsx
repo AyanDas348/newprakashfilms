@@ -11,6 +11,7 @@ import PromotionPopup from "../Promotion-Popup";
 import SkillsCircle from "../Skills-Circle";
 import VideoHeroMobile from "../Video-Hero-Mobile";
 import { useMediaQuery } from "@mui/material";
+import Vision from "../Vision";
 
 const testimonials = [
   {
@@ -63,6 +64,7 @@ const Home1 = ({ projects, data, footerData }) => {
       )}
       <AboutUs1 data={data?.data?.attributes} />
       <SkillsCircle banner={banner} showLearnMore />
+      <Vision />
       <WorkTwoColumn projects={projects?.data} />
       <Testimonials testimonials={testimonials} />
       <Contact
