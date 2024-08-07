@@ -15,20 +15,20 @@ import Vision from "../Vision";
 
 const testimonials = [
   {
-    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
-    name: "Ayan Das",
+    testimonial: "Highly professional, creative, and detail-oriented. Consistently delivers top-quality content that resonates with our audience.",
+    name: "Anju Rai, Viacom 18",
   },
   {
-    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
-    name: "Ayan Das",
+    testimonial: "Innovative and committed to excellence. Their team ensures flawless execution and has transformed our projects.",
+    name: "Dinesh Badlani, Sony",
   },
   {
-    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
-    name: "Ayan Das",
+    testimonial: "Remarkable storytelling and visually stunning films. A valuable partner for Zee Studios.",
+    name: "Emanuel, Zee Studios",
   },
   {
-    testimonial: "Sample Testimonial. This is a sample testimonial. Data will be inserted later",
-    name: "Ayan Das",
+    testimonial: "Exceptional team with a passion for quality filmmaking. Consistently exceeds our expectations.",
+    name: "Sanjay Marudhar, Pen Marudhar",
   },
 ];
 
@@ -44,6 +44,7 @@ const Home1 = ({ projects, data, footerData }) => {
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const header_images = Array.from({ length: 3 }).map((_, i) => `/assets/hero/img-${i + 1}.jpg`)
+  const mobile_header_images = Array.from({ length: 3 }).map((_, i) => `/assets/hero/mobile-img-${i + 1}.jpg`)
 
   return (
     <LightLayout
@@ -52,7 +53,7 @@ const Home1 = ({ projects, data, footerData }) => {
         <VideoHeroMobile
           header={header}
           header_thumbnail={header_thumbnail}
-          header_images={header_images}
+          header_images={mobile_header_images}
         />
       ) : (
         <VideoHero

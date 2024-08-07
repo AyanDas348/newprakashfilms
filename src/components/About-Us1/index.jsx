@@ -65,14 +65,14 @@ const AboutUs1 = ({ data }) => {
                     </div>
                   </div>
 
-                  <div className="col-md-4">
+                  <div className="col-md-6">
                     <div className="item">
                       <h3>
                         <span className="nbr playfont">
-                          {families_satisfied}
+                          &nbsp; {families_satisfied}
                         </span>
                       </h3>
-                      <h6>CLIENTS SATISFIED</h6>
+                      <h6>&nbsp; &nbsp;CLIENTS SATISFIED</h6>
                     </div>
                   </div>
 

@@ -58,7 +58,6 @@ const WorkTwoColumn = ({ projects }) => {
             </div>
           </div>
           <div className="row gallery
-            d-none d-sm-block
           ">
             {newProjectLayout?.map((project, index) => (
               <div className="col-lg-6 items" key={index}>

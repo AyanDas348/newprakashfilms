@@ -86,7 +86,7 @@ const VideoHeroMobile = ({ header_text, header_video, header, header_thumbnail, 
                 sequence={[
                   'CINEMA',
                   5000,
-                  'STORYTELLING',
+                  'STORY',
                   5000,
                   'FILM',
                   5000,

@@ -72,13 +72,13 @@ const Contact = ({ footerData }) => {
   return (
     <>
       <section className="contact cont-map" id="contactForm">
-        <div className="container">
+        <div className="container" style={{ paddingBottom: '0px' }}>
           <div className="row">
             <div
               className="col-lg-5 col-md-6 contact-form wow fadeInDown"
               data-wow-delay=".1s"
             >
-              <form id="contact-form" onSubmit={handleSubmit}>
+              <form id="contact-form" onSubmit={handleSubmit} style={{ marginBottom: '0px' }}>
                 <div className="section-head">
                   <h6>Contact Us</h6>
                   <h4 className="playfont">Get In Touch</h4>
@@ -146,11 +146,13 @@ const Contact = ({ footerData }) => {
           </div>
         </div>
         <div className="contact-map">
-          {footerData.map_iframe && <iframe
-            style={{
-              // filter: "grayscale(100%)",
-            }}
-            src={footerData.map_iframe}></iframe>}
+          <div style={{padding: '0px 24px', height: '100%'}}>
+            {footerData.map_iframe && <iframe
+              style={{
+                // filter: "grayscale(100%)",
+              }}
+              src={footerData.map_iframe}></iframe>}
+          </div>
         </div>
         <div
           className="bg-img"
