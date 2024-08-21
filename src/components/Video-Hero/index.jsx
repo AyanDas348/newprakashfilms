@@ -1,117 +1,157 @@
-// video hero image
-//
-import { useEffect, useState } from "react";
-import { LazyLoadComponent } from "react-lazy-load-image-component";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 
-const VideoHero = ({ header_text, header_video, header, header_thumbnail, header_images }) => {
-  const { header_title, header_content, typing_text } = header ?? {};
+const VideoHero = ({ header_text, header, header_images }) => {
+  const { header_title } = header ?? {};
 
   const [index, setIndex] = useState(0);
 
-  // Function to increment index every 5 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex(prevIndex => (prevIndex + 1) % header_images.length);
-    }, 5000);
+  const handlePrevClick = () => {
+    setIndex((prevIndex) => (prevIndex - 1 + header_images.length) % header_images.length);
+  };
 
-    return () => clearInterval(interval);
-  }, [header_images]);
+  const handleNextClick = () => {
+    setIndex((prevIndex) => (prevIndex + 1) % header_images.length);
+  };
 
-
-  // scroll to section
-  function scrollBottom() {
-    // scroll to section with id as #contactForm
-    document
-      .getElementById("contactForm")
-      .scrollIntoView({ behavior: "smooth" });
-  }
+  const handleCircleClick = (circleIndex) => {
+    setIndex(circleIndex);
+  };
 
   return (
     <div
       className="bg-img valign"
       style={{
         position: "relative",
-        // backgroundImage: `url('${header_images?.data[index]?.attributes.url}')`,
-        backgroundImage: `url('${header_images?.[index]}')`,
+        backgroundImage: `url('/assets/img/patern.png')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         transition: "background-image 1s ease-in-out",
+        height: "100vh",
+        display: "flex",
       }}
     >
-      {/* <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        poster={header_thumbnail?.data.attributes.url}
-        preload="none"
-        style={{
-          position: "absolute",
-          zIndex: "-1",
-          filter: "brightness(0.4)",
-          height: "100vh",
-          width: "100vw",
-          objectFit: "cover",
-        }}
-      >
-        <source src={header_video?.data.attributes.url} type="video/mp4" />
-      </video> */}
       <div
-        className="black-backdrop" // New class for black backdrop
+        className="black-backdrop"
         style={{
           position: "absolute",
           top: 0,
           left: 0,
           width: "100%",
           height: "100%",
-          backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent black
-          zIndex: 1, // Make sure it's above the background image
+          backgroundColor: "rgba(0, 0, 0, 0.8)",
+          zIndex: 1,
         }}
       ></div>
       <div
-        className="container"
+        className="left-half"
         style={{
           position: "relative",
-          zIndex: "1",
-          height: "100vh",
-          margin: "auto",
+          zIndex: 2,
+          width: "30%",
+          padding: "20px",
+          display: "flex",
+          alignItems: "center",
         }}
       >
-        <div className="row align-items-center h-100">
-          <div className="col-lg-8 col-md-10">
-            <div className="caption hmone my-auto">
-              <h5 className="thin text-white playfont">{header_title}</h5>
-              <TypeAnimation
-                sequence={[
-                  'Cinema',
-                  5000,
-                  'Storytelling',
-                  5000,
-                  'Film',
-                  5000,
-                ]}
-                style={{
-                  height: "100%",
-                  fontSize: "4em",
-                  fontWeight: "bold",
-                  fontFamily: "Playfair Display",
-                  color: "#DABD75",
-                  // backdropFilter: 'blur(10px)',
-                  // background: 'rgba(0,0,0,0.2)',
-                }}
-                repeat={Infinity}
-              />
-              {/* <p className="mt-10 text-white">{header_content}</p> */}
-              <p className="mt-10 text-white">Where Every Film Finds Its Audience</p>
-              {/* <a
-                onClick={scrollBottom}
-                className="btn-curve btn-bord btn-lit mt-30"
-              >
-                <span>Enquire Now</span>
-              </a> */}
-            </div>
-          </div>
+        <div
+          className="caption hmone my-auto"
+          style={{
+            paddingLeft: '80px'
+          }}
+        >
+          <h5 className="thin text-white playfont">{header_title}</h5>
+          <TypeAnimation
+            sequence={[
+              'Cinema',
+              5000,
+              'Storytelling',
+              5000,
+              'Film',
+              5000,
+            ]}
+            style={{
+              fontSize: "4em",
+              fontWeight: "bold",
+              fontFamily: "Playfair Display",
+              color: "#DABD75",
+            }}
+            repeat={Infinity}
+          />
+          <p className="mt-10 text-white">Where Every Film Finds Its Audience</p>
+        </div>
+      </div>
+      <div
+        className="right-half"
+        style={{
+          position: "relative",
+          zIndex: 2,
+          width: "70%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between", // Space between chevrons and image
+          padding: '0 10%', // Padding to allocate 10% for chevrons
+        }}
+      >
+        <ChevronLeft
+          style={{
+            color: 'white',
+            border: '1px solid white',
+            borderRadius: '100%',
+            width: '50px',
+            height: '50px',
+            cursor: 'pointer',
+          }}
+          onClick={handlePrevClick}
+        />
+        <img
+          src={header_images[index]}
+          alt="carousel image"
+          style={{
+            maxWidth: "80%",
+            maxHeight: "70%",
+            objectFit: "contain",
+            borderRadius: "10px",
+            transition: "all 1s ease-in-out",
+          }}
+        />
+        <ChevronRight
+          style={{
+            color: 'white',
+            border: '1px solid white',
+            borderRadius: '100%',
+            width: '50px',
+            height: '50px',
+            cursor: 'pointer',
+          }}
+          onClick={handleNextClick}
+        />
+        <div
+          style={{
+            position: 'absolute',
+            bottom: '10%',
+            display: 'flex',
+            columnGap: '12px',
+            left: '50%', // Align center horizontally
+            transform: 'translateX(-50%)', // Adjust alignment to center
+          }}
+        >
+          {header_images.map((_, circleIndex) => (
+            <div
+              key={circleIndex}
+              onClick={() => handleCircleClick(circleIndex)}
+              style={{
+                width: '15px',
+                height: '15px',
+                borderRadius: '50%',
+                border: '2px solid white',
+                backgroundColor: index === circleIndex ? 'white' : 'transparent',
+                cursor: 'pointer',
+              }}
+            ></div>
+          ))}
         </div>
       </div>
     </div>

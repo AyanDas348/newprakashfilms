@@ -20,7 +20,7 @@ const AboutUs1 = ({ data }) => {
                 className="img bg-img wow imago"
                 style={{
                   // backgroundImage: `url(${about_us_image?.data.attributes.url})`,
-                  backgroundImage: `url(${'/assets/distribution/download.jpg'})`,
+                  backgroundImage: `url(${'/assets/img/mobile-hero/mobile-img-9.jpg'})`,
                 }}
               >
                 <div className="since playfont">

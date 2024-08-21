@@ -157,7 +157,7 @@ const Contact = ({ footerData }) => {
         <div
           className="bg-img"
           // style={{ backgroundImage: `url(${footerData.home_page_contact_form_bg_image.data.attributes.url})` }}
-          style={{ backgroundImage: `url(${'/assets/distribution/download.jpg'})` }}
+          style={{ backgroundImage: `url(${'/assets/img/mobile-hero/mobile-img-9.jpg'})` }}
         ></div>
       </section>
     </>

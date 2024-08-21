@@ -44,7 +44,7 @@ const Home1 = ({ projects, data, footerData }) => {
   const isMobile = useMediaQuery('(max-width:600px)');
 
   const header_images = Array.from({ length: 3 }).map((_, i) => `/assets/hero/img-${i + 1}.jpg`)
-  const mobile_header_images = Array.from({ length: 3 }).map((_, i) => `/assets/hero/mobile-img-${i + 1}.jpg`)
+  const mobile_header_images = Array.from({ length: 14 }).map((_, i) => `/assets/img/mobile-hero/mobile-img-${i + 1}.jpg`)
 
   return (
     <LightLayout
@@ -60,13 +60,13 @@ const Home1 = ({ projects, data, footerData }) => {
           header_video={header_video}
           header={header}
           header_thumbnail={header_thumbnail}
-          header_images={header_images}
+          header_images={mobile_header_images}
         />
       )}
       <AboutUs1 data={data?.data?.attributes} />
       <SkillsCircle banner={banner} showLearnMore />
       <Vision />
-      <WorkTwoColumn projects={projects?.data} />
+      <WorkTwoColumn projects={mobile_header_images} />
       <Testimonials testimonials={testimonials} />
       <Contact
         footerData={footer}

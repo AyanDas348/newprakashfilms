@@ -16,22 +16,20 @@ const WorkTwoColumn = ({ projects }) => {
   }, []);
 
   let newProjectLayout = [
-    {
-      imageUrl: '/assets/distribution/download.jpg',
-      title: 'ANIMAL'
-    },
-    {
-      imageUrl: '/assets/distribution/download.jpg',
-      title: 'BHOOT'
-    },
-    {
-      imageUrl: '/assets/distribution/download.jpg',
-      title: 'GUL MAKAI'
-    },
-    {
-      imageUrl: '/assets/distribution/download.jpg',
-      title: 'MARVEL'
-    },
+    'Dharmaveer 2',
+    'Ulajh',
+    'Munjya',
+    'Deadpool & Wolverine',
+    'Vedha',
+    'Rang de Basanti',
+    'Ishq Vishq Rebound',
+    'Adhinayak',
+    'Ranga Shoor',
+    'Auron Mein Kahan Dum Tha',
+    'Hindustani 2',
+    'Godhra',
+    'Stree 2',
+    'Bad Boys'
   ]
 
   // if (projects?.filter((project) => project.attributes.project_status !== 'completed').length % 2 === 0) {
@@ -59,7 +57,7 @@ const WorkTwoColumn = ({ projects }) => {
           </div>
           <div className="row gallery
           ">
-            {newProjectLayout?.map((project, index) => (
+            {projects?.map((project, index) => (
               <div className="col-lg-6 items" key={index}>
                 <Link
                   legacyBehavior
@@ -69,10 +67,8 @@ const WorkTwoColumn = ({ projects }) => {
                     <div className="img">
                       <LazyLoadImage
                         visibleByDefault={true}
-                        src={
-                          project.imageUrl
-                        }
-                        alt={project.title}
+                        src={project}
+                        alt={newProjectLayout[index]}
                         style={{
                           width: "100%",
                           objectFit: "cover",
@@ -81,7 +77,7 @@ const WorkTwoColumn = ({ projects }) => {
                       />
                     </div>
                     <div className="cont vis">
-                      <h5>{project?.title}</h5>
+                      <h5>{newProjectLayout[index]}</h5>
                     </div>
                   </div>
                 </Link>
