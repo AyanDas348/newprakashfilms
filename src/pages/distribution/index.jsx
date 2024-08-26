@@ -17,6 +17,23 @@ const Portfolio = ({ projects, data, footerData }) => {
 
   const mobile_header_images = Array.from({ length: 14 }).map((_, i) => `/assets/img/mobile-hero/mobile-img-${i + 1}.jpg`)
 
+  let newProjectLayout = [
+    'Dharmaveer 2',
+    'Ulajh',
+    'Munjya',
+    'Deadpool & Wolverine',
+    'Vedha',
+    'Rang de Basanti',
+    'Ishq Vishq Rebound',
+    'Adhinayak',
+    'Ranga Shoor',
+    'Auron Mein Kahan Dum Tha',
+    'Hindustani 2',
+    'Godhra',
+    'Stree 2',
+    'Bad Boys'
+  ]
+
   return (
     <MainLayout data={footerData}>
       <WorkHeader
@@ -31,7 +48,7 @@ const Portfolio = ({ projects, data, footerData }) => {
         content={header_content}
         headerImage={header_image}
       />
-      <WorkFourColumn projects={mobile_header_images} />
+      <WorkFourColumn projects={mobile_header_images} newProjectLayout={newProjectLayout}/>
     </MainLayout>
   );
 };

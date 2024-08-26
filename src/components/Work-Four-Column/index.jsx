@@ -22,7 +22,7 @@ let newProjectLayout = [
 ]
 
 
-const WorkFourColumn = ({ projects }) => {
+const WorkFourColumn = ({ projects, newProjectLayout }) => {
   React.useEffect(() => {
     setTimeout(() => {
       if (window.Isotope) initIsotope();
